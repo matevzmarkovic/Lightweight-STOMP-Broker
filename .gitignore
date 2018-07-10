@@ -1,3 +1,13 @@
+#Exclude backup text files
+*~
+
+#Exclude hidden files
+.*
+!/.gitignore
+
+#Exclude the directory for binary files
+/bin
+
 # Prerequisites
 *.d
 
